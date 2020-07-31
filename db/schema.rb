@@ -19,10 +19,9 @@ ActiveRecord::Schema.define(version: 2) do
   end
 
   create_table "softwares", force: :cascade do |t|
-    t.integer "software_id"
-    t.integer "category_id"
     t.string "software_name"
     t.string "description"
+    t.integer "category_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

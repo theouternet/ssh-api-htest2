@@ -10,11 +10,11 @@
 
 categories = Category.create([{ category_name: 'Accounting' }, { category_name: 'Music' }, { category_name: 'Design' }, { category_name: 'Statistics' }, { category_name: 'Spreadsheets' }])
 
-Software.create(software_name: 'Quicken', category: categories.first)
-Software.create(software_name: 'Cakewalk', category: categories.second)
-Software.create(software_name: 'InDesign', category: categories.third)
-Software.create(software_name: 'SPSS', category: categories.fourth)
-Software.create(software_name: 'Excel', category: categories.fifth)
+Software.create(software_name: 'Quicken', description: 'Do taxes.', category: categories.first)
+Software.create(software_name: 'Cakewalk', description: 'Make music.', category: categories.second)
+Software.create(software_name: 'InDesign', description: 'Design shit.', category: categories.third)
+Software.create(software_name: 'SPSS', description: 'Do stats.', category: categories.fourth)
+Software.create(software_name: 'Excel', description: 'Make tables.', category: categories.fifth)
 
 
 

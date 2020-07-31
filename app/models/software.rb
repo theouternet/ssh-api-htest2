@@ -3,6 +3,5 @@ class Software < ApplicationRecord
     
 
     validates :software_name, presence: true
-    validates :description, presence: true
 
 end
